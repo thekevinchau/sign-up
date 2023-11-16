@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+}
+
+:root{
+    --ff: Arial;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+.left{
+    color: white;
+    width: 50vw;
+    height: 100vh;
+    background: linear-gradient(#e66465, #9198e5);
+    font-family: 'Fira Sans', sans-serif;
+}
+.left-bottom{
+    line-height: 110%;
+    letter-spacing: 2px;
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 280%;
+}
+.left-bottom>p{
+    width: 60%;
+}
+
+.right{
+    width: 80vw;
+    height: 100vh;
+}
+.right-content{
+   margin-left: 8vw;
+   margin-right: 8vw;
+   margin-top: 7vh;
+   height: 90vh;
+   font-family: Arial;
+}
+.header{
+    line-height: 60px;
+}
