@@ -41,21 +41,23 @@
                         </div>
 
                         <div class="form-row">
-                            <input required class="input-box" type="number" name="phone_number" id="phone_number" placeholder="Phone Number (ex. 123-456-7890)">
+                            <input required pattern="\d{3}-\d{3}-\d{4}" class="input-box" type="text" name="phone_number" id="phone_number" placeholder="Phone Number (ex. 123-456-7890)">
                             <input required class="input-box" type="text" name="birthday" id="birthday" placeholder="Enter your birthday (mm/dd/yy)" pattern="^(0[1-9]|1[0-2])/(0[1-9]|[12][0-9]|3[01])/\d{2}$">
                         </div>
 
                         <div class="form-row">
                             <input required class="input-box" type="password" name="password" id="password" placeholder="Enter your password">
-                            <input required class="input-box" type="password" name="password" id="password" placeholder="Confirm your password">
+                            <input required class="input-box" type="password" name="password_val" id="password_val" placeholder="Confirm your password">
                         </div>
 
                         <input type="checkbox">
-                        <label for="agreeement">I've read and agree with <strong>Terms of Service</strong> and our <strong>Privacy Policy</strong></label>
+                        <label for="agreeement">I've read and agreed with the <strong>Terms of Service</strong> and our <strong>Privacy Policy</strong></label>
 
                         <div style="display: flex; justify-content:center; margin-top: 5vh;">
                             <button type="submit">SIGN UP</button>
                         </div>
+
+                        <div style="display: flex; justify-content:center; margin-top: 3vh;">Already have an account? &nbsp;<strong><a style="color: inherit; text-decoration: none" href="#"> Sign In</a></strong></div>
                     </form>
                 </div>
             </div>
