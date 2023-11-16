@@ -44,3 +44,18 @@
 .header{
     line-height: 60px;
 }
+.form-row{
+    margin-bottom: 2.5vh;
+}
+.input-box{
+    margin-right: 10px;
+    width: 400px;
+    height: 50px;
+}
+input::placeholder{
+    padding-left: 10px;
+}
+select{
+    width: 410px;
+    height: 56px;
+}
